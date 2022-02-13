@@ -6,21 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:id="@+id/number1"
         android:layout_width="300dp"
         android:layout_height="56dp"
         android:layout_marginTop="104dp"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <EditText
         android:id="@+id/number2"
         android:layout_width="300dp"
         android:layout_height="56dp"
         android:layout_marginTop="220dp"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,49 +30,60 @@
 
     <Button
         android:id="@+id/btnplus"
-        android:layout_width="87dp"
-        android:layout_height="85dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginTop="336dp"
         android:text="+"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnmin"
-        android:layout_width="87dp"
-        android:layout_height="85dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginTop="336dp"
         android:text="-"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.344"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnmulty"
-        android:layout_width="87dp"
-        android:layout_height="85dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginTop="336dp"
         android:text="*"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btndiv"
-        android:layout_width="87dp"
-        android:layout_height="85dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginTop="336dp"
         android:text="/"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="504dp"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
